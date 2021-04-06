@@ -1,0 +1,10 @@
+export const data = `type,amount,period
+base,1000,202101
+top,3000,202101
+base,3000,202102
+top,1000,202102
+base,1000,202201
+top,2000,202201
+base,1000,202202
+top,2000,202202
+`;

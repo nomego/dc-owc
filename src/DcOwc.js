@@ -1,8 +1,6 @@
 import { LitElement, html, css } from 'lit-element';
 import { openWcLogo } from './open-wc-logo.js';
 
-import { BarChart } from 'dc';
-
 export class DcOwc extends LitElement {
   static get properties() {
     return {
@@ -66,15 +64,7 @@ export class DcOwc extends LitElement {
         <div class="logo">${openWcLogo}</div>
         <h1>${this.title}</h1>
 
-        <p>Edit <code>src/DcOwc.js</code> and save to reload.</p>
-        <a
-          class="app-link"
-          href="https://open-wc.org/guides/developing-components/code-examples/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Code examples
-        </a>
+        <dc-composite-bar-line style="width: 700px; height: 500px; border: solid 1px black;"></dc-composite-bar-line>
       </main>
 
       <p class="app-footer">
